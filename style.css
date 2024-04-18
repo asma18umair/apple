@@ -1,11 +1,26 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
 .logo {
  margin-left: 50px;
+
 }
-.navbar-nav{
+
+@media (min-width: 30em) and (max-width: 50em) {
+  /* … */
+}
+
+@media (30em <= width <= 50em) {
+  /* … */
+}
+@media (min-width: 30em) and (max-width: 50em) {
+    /* … */
+  }
   
- 
-}
-{
-    background-image: url(./images/title.avif);
-}
+  @media (30em <= width <= 50em) {
+    /* … */
+  }
+  
